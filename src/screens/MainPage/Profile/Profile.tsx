@@ -1,8 +1,10 @@
 import React from 'react';
+import './Profile.css';
 
 const Profile: React.FC = () => {
     return (
-        <div className="Container">
+        <div className="Profile">
+            dsds
         </div>
     );
 }

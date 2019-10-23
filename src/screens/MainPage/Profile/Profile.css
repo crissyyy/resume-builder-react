@@ -1,13 +1,4 @@
-.Header{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: violet;
-}
-
-.Title{
-    grid-column: 2;
-}
-
-.Personal{
-    grid-column: 3;
+.Profile{
+    background-color: blue;
+    height: 200px;
 }

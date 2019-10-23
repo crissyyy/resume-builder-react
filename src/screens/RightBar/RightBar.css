@@ -1,4 +1,5 @@
 .RightBar{
     background-color: burlywood;
-    color:violet;
+    display: flex;
+    flex-direction: column;
 }

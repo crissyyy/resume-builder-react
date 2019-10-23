@@ -6,6 +6,7 @@
     grid-template-columns: 70% 30%;
     height: 978px;
     width: 650px;
+    background-color: lightgrey;
 }
 
 
@@ -18,4 +19,8 @@
 .RightBar{
     color: burlywood;
     grid-column: 2;
+}
+
+.Subtitle{
+    background-color: aqua;
 }
