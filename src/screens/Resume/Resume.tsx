@@ -1,9 +1,9 @@
 import React from 'react';
-import './Index.css';
+import './Resume.css';
 import MainPage from './MainPage/MainPage';
 import RightBar from "./RightBar/RightBar";
 
-const Experience: React.FC = () => {
+const Resume: React.FC = () => {
     return (
         <div className="Container">
             <MainPage />
@@ -12,4 +12,4 @@ const Experience: React.FC = () => {
     );
 }
 
-export default Experience;
+export default Resume;

@@ -1,10 +1,10 @@
 import React from 'react';
-import Index from './screens/Index'
+import Resume from './screens/Resume/Resume'
 
 const App: React.FC = () => {
   return (
     <div>
-      <Index />
+      <Resume />
     </div>
   );
 }
