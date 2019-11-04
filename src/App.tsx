@@ -7,6 +7,6 @@ const App: React.FC = () => {
       <Resume />
     </div>
   );
-}
+};
 
 export default App;

@@ -13,6 +13,6 @@ const MainPage: React.FC = () => {
             <Footer/>
         </div>
     );
-}
+};
 
 export default MainPage;
