@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:"Arial Black", Gadget, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,9 +14,98 @@ code {
   display: flex;
   flex-direction: column;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */
+  /*justify-content: center; !* 水平居中 *!*/
+  /*align-items: center;     !* 垂直居中 *!*/
 }
-.Subtitle {
-  width:98%
+
+/*module css*/
+.Main{
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+.Subtitle{
+  margin:20px;
+}
+.NameWrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.Title{
+  color: #76a0a5;
+}
+.Name{
+  font-size: 30px;
+}
+.ProfileSubtitle{
+  margin: 10px 20px 0 20px;
+  border-bottom: 1px solid #76a0a5;
+}
+.SubtitleContent{
+  margin: 10px 20px;
+  font-size: 14px;
+}
+.ExperienceSubtitle{
+  margin: 10px 20px 0 20px;
+  border-bottom: 1px solid #76a0a5;
+}
+.Experience{
+  /*height:578px*/
+}
+
+.ExperienceColumn{
+  min-height: 100px;
+  width: 90%;
+  margin: 10px auto;
+  /* text-align: center; */
+  /* margin: 2px; */
+  background: gainsboro;
+}
+.line{
+  border-top: 1px solid #76a0a5;
+  margin: 10px 0;
+}
+.Footer{
+  margin: 10px 20px;
+  font-size: 10px;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+
+
+
+.RightBar{
+  background-color: #1e1e27;
+  display: flex;
+  flex-direction: column;
+}
+
+.Photo{
+  height:200px
+}
+.photoPos{
+  overflow: hidden;
+  display: block;
+}
+.photoPos img{
+  max-height: 70%;
+  max-width: 70%;
+  margin: 15%;
+}
+.RightBarModule{
+  height:200px
+}
+.RightBarSubtitle{
+  color: #1e1e27;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 30px;
+  background: #76a0a5;
+}
+.RightBarSubtitleContent{
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
 }

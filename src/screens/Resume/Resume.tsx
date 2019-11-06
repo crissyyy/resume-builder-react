@@ -6,25 +6,25 @@ import RightBar from "./RightBar/RightBar";
 const Resume: React.FC = () => {
     return (
         <div className="Container">
-            <Test/>
+            {/*<Test/>*/}
             <MainPage />
             <RightBar />
         </div>
     );
 };
 
-const Test: React.FC = () => {
-    const [i,setI] = useState(0);
-    const change = () => {
-        setInterval(()=>{
-            setI(8);
-        },5000)
-    };
-    useEffect(change,[]);
-    return (
-        <div>
-            {i}
-        </div>
-    )
-};
+// const Test: React.FC = () => {
+//     const [i,setI] = useState(0);
+//     const change = () => {
+//         setInterval(()=>{
+//             setI(8);
+//         },5000)
+//     };
+//     useEffect(change,[]);
+//     return (
+//         <div>
+//             {i}
+//         </div>
+//     )
+// };
 export default Resume;

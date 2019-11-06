@@ -3,9 +3,11 @@ import './Education.css';
 
 const Education: React.FC = () => {
     return (
-        <div className="Education">
-            dfsa
+        <div className="RightBarModule">
+            <div className="RightBarSubtitle">EDUCATION</div>
+            <div className="RightBarSubtitleContent">??????</div>
         </div>
+
     );
 }
 

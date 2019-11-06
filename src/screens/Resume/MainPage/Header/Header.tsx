@@ -4,8 +4,8 @@ import './Header.css';
 const Header: React.FC = () => {
     return (
         <div className="Header">
-            <div className="Title">
-                Resume
+            <div className="ResumeTitle">
+                RESUME
             </div>
         </div>
     );

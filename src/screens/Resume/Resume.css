@@ -1,3 +1,9 @@
+.body {
+    margin: 0;
+    font-family: "Arial Black", Gadget, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .Container{
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +29,3 @@
 }
 
 
-.Subtitle{
-    background-color: aqua;
-}

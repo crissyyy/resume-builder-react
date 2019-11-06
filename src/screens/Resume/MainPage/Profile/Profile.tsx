@@ -6,8 +6,8 @@ const Profile: React.FC = () => {
     return (
         <div className="Profile Section">
             <Name/>
-            <div className="Subtitle"> Profile</div>
-            dsds
+            <div className="ProfileSubtitle"> Profile</div>
+            <div className="SubtitleContent">????????</div>
         </div>
     );
 };

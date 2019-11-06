@@ -8,9 +8,9 @@ const RightBar: React.FC = () => {
     return (
         <div className="RightBar">
             <Photo/>
+            <Contact/>
             <Education/>
             <Skill/>
-            <Contact/>
         </div>
     );
 }

@@ -4,7 +4,9 @@ import './Photo.css'
 const Photo: React.FC = () => {
     return (
         <div className="Photo">
-            3232
+            <div className="photoPos">
+                <img src={require('./IMG_8986.jpeg')} />
+            </div>
         </div>
     );
 }

@@ -3,9 +3,11 @@ import './Skill.css'
 
 const Skill: React.FC = () => {
     return (
-        <div className="Skill">
-            3232
+        <div className="RightBarModule">
+            <div className="RightBarSubtitle">SKILL</div>
+            <div className="RightBarSubtitleContent">??????</div>
         </div>
+
     );
 }
 
